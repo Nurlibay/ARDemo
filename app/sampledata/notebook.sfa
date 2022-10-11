@@ -1,0 +1,133 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Armature|Armature|Armature|ArmatureAction',
+        },
+      ],
+      path: 'sampledata/notebook.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Lowpoly_Body',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Lowpoly_Laptop_2',
+        },
+        {
+          normalMap: 'Lowpoly_Laptop_Nor_2',
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Lowpoly_Screen',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'Lowpoly_Laptop_1',
+        },
+        {
+          normalMap: 'Lowpoly_Laptop_Nor_1',
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/notebook.fbx',
+    name: 'notebook',
+    recenter: 'root',
+    scale: 0.43688399999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\notebook.fbm\\Lowpoly_Laptop_Nor_2.jpg',
+      name: 'Lowpoly_Laptop_Nor_2',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'notebook.fbm\\Lowpoly_Laptop_Nor_2.jpg',
+    },
+    {
+      file: 'sampledata\\notebook.fbm\\Lowpoly_Laptop_2.jpg',
+      name: 'Lowpoly_Laptop_2',
+      pipeline_name: 'notebook.fbm\\Lowpoly_Laptop_2.jpg',
+    },
+    {
+      file: 'sampledata\\notebook.fbm\\Lowpoly_Laptop_Nor_1.jpg',
+      name: 'Lowpoly_Laptop_Nor_1',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: 'notebook.fbm\\Lowpoly_Laptop_Nor_1.jpg',
+    },
+    {
+      file: 'sampledata\\notebook.fbm\\Lowpoly_Laptop_1.jpg',
+      name: 'Lowpoly_Laptop_1',
+      pipeline_name: 'notebook.fbm\\Lowpoly_Laptop_1.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
